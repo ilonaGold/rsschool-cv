@@ -106,4 +106,36 @@ Navbar
   color: #c0c0c0;
 }
 
+/* ====================
+Section Styles
+=======================*/
 
+.main {
+  width: 100%;
+  margin-inline: auto;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60rem;
+  border-top: 1.5px solid #e7c7c8;
+  border-bottom: 1.5px solid #e7c7c8;
+}
+
+.section-img,
+.section-content {
+  width: 50rem;
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.section-text {
+  line-height: 35px;
+  font-size: 2rem;
+}
