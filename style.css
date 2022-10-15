@@ -220,3 +220,30 @@ Languages Section
   flex-direction: column;
   list-style-type: circle;
 }
+
+/* ====================
+Code Sample Section
+=======================*/
+
+.code-sample {
+  background: #dae6e6;
+}
+
+.code-sample-title {
+  margin-top: 7rem;
+  margin-bottom: 0;
+}
+
+.code-sample-content {
+  display: flex;
+  flex-direction: column;
+  order: -1;
+}
+
+pre code {
+  font-size: 1.5rem;
+  display: block;
+  line-height: 22.5px;
+  margin-top: 0;
+  margin-bottom: 8rem;
+}
