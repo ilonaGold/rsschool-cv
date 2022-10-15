@@ -247,3 +247,38 @@ pre code {
   margin-top: 0;
   margin-bottom: 8rem;
 }
+
+/* ====================
+Contact Section
+=======================*/
+
+.contact {
+  background: #e7c7c8;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-img {
+  margin-right: 20rem;
+  position: relative;
+}
+
+.contact-info {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  top: 40%;
+  left: 26%;
+}
+
+.contact-info a {
+  font-size: 3rem;
+}
+
+.contact-info a:hover,
+.contact-info a:focus {
+  color: #daa520;
+}
