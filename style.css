@@ -210,3 +210,13 @@ Education Section
   flex-direction: column;
   list-style-type: circle;
 }
+
+/* ====================
+Languages Section
+=======================*/
+
+.languages-text {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+}
