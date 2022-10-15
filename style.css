@@ -190,3 +190,23 @@ Skills Section
   flex-direction: column;
   list-style-type: circle;
 }
+
+/* ====================
+Education Section
+=======================*/
+
+.education {
+  background: #dae6e6;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  order: -1;
+}
+
+.education-text {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+}
