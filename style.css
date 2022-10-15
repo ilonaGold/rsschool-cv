@@ -150,7 +150,7 @@ Intro Section
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #e7c7c8 url('assets/workplace.jpg') 0% 95%/cover no-repeat;
+  background: #e7c7c8 url('extras/workplace.jpg') 0% 95%/cover no-repeat;
 }
 
 .intro-title {
