@@ -172,3 +172,21 @@ About Section
   border-radius: 15%;
   padding: 1rem 2.5rem 3rem;
 }
+
+/* ====================
+Skills Section
+=======================*/
+
+.skills {
+  background: #dae6e6;
+}
+
+.skills-content {
+  order: -1;
+}
+
+.skills-text {
+  display: flex;
+  flex-direction: column;
+  list-style-type: circle;
+}
