@@ -73,3 +73,37 @@ h2 {
 h3 {
   font-size: 3rem;
 }
+
+/* ============
+Header
+==============*/
+
+.header {
+  height: 10rem;
+  background: #000;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+/* ============
+Navbar
+==============*/
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 82rem;
+}
+
+.nav-link {
+  color: #c0c0c0;
+}
+
+
