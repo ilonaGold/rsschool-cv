@@ -175,5 +175,43 @@
           </ul>
         </div>
       </section>
+      
+      <!-- Code Samples Section -->
+      <section class="code-sample section" id="code-samples">
+        <div class="code-sample-img section-img">
+          <img
+            src="assets/computer-code.jpg"
+            alt="female silhoette against binary code background"
+          >
+        </div>
+        <div class="code-sample-content section-content">
+          <h3 class="code-sample-title section-title">
+            Latest code sample (09.2022)
+          </h3>
+          <div class="code-sample-text section-text">
+            <pre>
+              <code>
+                function fizzbuzz(n){
+                  let result = [];
+                  for(let i = 1; i &lt;= n; i++){
+                    let temp = &quot;&quot;;
+                      if(i % 15 === 0){
+                      temp += &quot;FizzBuzz&quot;;
+                      } else if (i % 3 === 0) {
+                        temp += &quot;Fizz&quot;;
+                      } else if (i % 5 === 0) {
+                        temp += &quot;Buzz&quot;;
+                      }
+                   result.push(temp.length === 0 ? i : temp);
+                  }
+                  return result;
+                }
+                console.log(fizzbuzz(3));
+              </code>
+            </pre>
+          </div>
+        </div>
+      </section>
+
   </body>
 </html>
