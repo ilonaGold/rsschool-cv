@@ -157,3 +157,18 @@ Intro Section
   margin-top: 17rem;
   margin-bottom: 2.5rem;
 }
+
+/* ====================
+About Section
+=======================*/
+
+.about-content {
+  width: 80rem;
+  text-align: left;
+}
+
+.about-img {
+  border: 3px solid #e7c7c8;
+  border-radius: 15%;
+  padding: 1rem 2.5rem 3rem;
+}
