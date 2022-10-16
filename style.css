@@ -318,3 +318,26 @@ Footer
 .logo:focus {
   transform: scale(1.1);
 }
+
+/* ====================
+Media Queries
+=======================*/
+
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  .intro-title {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+  }
+  .about-content {
+    width: 60rem;
+  }
+  .footer-copyright {
+    width: 22%;
+  }
+}
