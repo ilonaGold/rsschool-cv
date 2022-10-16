@@ -67,10 +67,6 @@ h1 {
 }
 
 h2 {
-  font-size: 5rem;
-}
-
-h3 {
   font-size: 3rem;
 }
 
@@ -156,6 +152,10 @@ Intro Section
 .intro-title {
   margin-top: 17rem;
   margin-bottom: 2.5rem;
+}
+
+.intro-subtitle {
+  font-size: 5rem;
 }
 
 /* ====================
