@@ -1,1 +1,2 @@
-<https://ilonagold.github.io/rsschool-cv/cv>
+- My CV in Markdown format: <https://ilonagold.github.io/rsschool-cv/cv>
+- My CV as a formated webpage: <https://ilonagold.github.io/rsschool-cv/>
