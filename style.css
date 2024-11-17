@@ -293,10 +293,6 @@ Languages Section
 Code Sample Section
 =======================*/
 
-.code-sample {
-  height: calc(100vh + 10rem);
-}
-
 .code-sample-title {
   margin-top: 7rem;
   margin-bottom: 0;
@@ -306,13 +302,14 @@ Code Sample Section
   display: flex;
   flex-direction: column;
   order: -1;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
 }
 
 pre code {
-  font-size: 1.4rem;
-  line-height: 22.5px;
+  font-size: 1.5rem;
+}
+
+.code-sample-text {
+    line-height: 22.5px;
 }
 
 /* ====================
