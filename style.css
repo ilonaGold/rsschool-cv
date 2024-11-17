@@ -194,12 +194,11 @@ Intro Section
   align-items: center;
   text-align: center;
   background: var(--pink) url('extras/workplace.jpg') 0% 95%/cover no-repeat;
-  position: relative;
 }
 
 .intro-title {
-  position: absolute;
-  top: 43%;
+  margin-top: 23rem;
+  margin-bottom: 3rem;
   letter-spacing: 1px;
   text-shadow: -5px 5px 5px var(--text-shadow);
   /* animation */
@@ -207,8 +206,6 @@ Intro Section
 }
 
 .intro-subtitle {
-  position: absolute;
-  top: 53%;
   font-size: 4.05rem;
   /* animation */
   animation: slideFromRight 5s ease-in-out 1;
@@ -298,6 +295,7 @@ Code Sample Section
 
 .code-sample {
   height: calc(100vh + 10rem);
+}
 
 .code-sample-title {
   margin-top: 7rem;
@@ -308,6 +306,8 @@ Code Sample Section
   display: flex;
   flex-direction: column;
   order: -1;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 pre code {
